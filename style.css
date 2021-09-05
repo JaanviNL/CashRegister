@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+
+.root
+{
+    font-family: 'Archivo Narrow', sans-serif;
+    --purple:#7C3AED;
+}
+.container
+{
+margin: auto;
+text-align: center;
+border:1px solid black;
+padding: 1rem 1rem;
+background-color: #C4B5FD;
+max-width: 50%;
+}
+
+.heading
+{
+    text-decoration: underline;
+    color: #7C3AED;
+}
+.info
+{
+    font-size: large;
+}
+.input-label
+{
+    padding-top: 1rem;
+    font-size: larger;
+    color: #7C3AED;
+    display: block;
+}
+.input
+{
+    font-size: 15px;
+    padding: 1rem 1rem;
+    margin: 1rem;
+    border: 1px hidden;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 250px;
+}
+
+#check-button
+{
+    margin: 1rem 1rem;
+   padding: 0.5rem 1rem;
+   border: 2px solid  #7C3AED ;
+   background-color: transparent;
+   border-radius: 1rem;
+   font-size: larger;
+   cursor: pointer;
+
+}
+#error-message
+{
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.table
+{
+    font-size: large;
+    padding-bottom: 1rem;
+}
+.change-table
+{
+    max-width: 80%;
+    margin: auto;
+    table-layout:auto;
+    border-spacing: 0.5rem;
+    border:1px solid gold;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: wheat;
+}
+th,td{
+    padding: 0.7rem 0.7rem;
+    font-size: 1.2rem;
+    border: 1px solid #7C3AED;
+    border-collapse: collapse;
+    width: fit-content;
+}
